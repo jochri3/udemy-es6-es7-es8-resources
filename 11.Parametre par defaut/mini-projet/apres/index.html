@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Créer employé</h1>
+    <form id="employeeForm">
+        <p>Nom : <input name="nom" id="nom" type="text" placeholder="Ex: Lisangola" /></p>
+        <p>Prenom : <input name="prenom" id="prenom" type="text" placeholder="Ex: Jean" /></p>
+        <p>Age : <input name="age" id="age" type="number" placeholder="Ex: 19" /></p>
+        <p>Pays :
+            <select name="pays" id="pays">
+                <option value="">-- Choisir pays --</option>
+                <option value="🇦🇴">Angola</option>
+                <option value="🇿🇼">Zimbabwe</option>
+                <option value="🇨🇩">RD Congo</option>
+            </select>
+        </p>
+        <input type="submit" value="Créer" />
+    </form>
+    <script src="./app3.js"></script>
+</body>
+
+</html>
